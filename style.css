@@ -1,0 +1,29 @@
+
+/* main section 2 */
+.main_div_up{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3%;
+}
+.s2_div_item1{
+    width: 100%;
+}
+.s2_div_item1_writting{
+    position:absolute;
+    z-index: 10;
+}
+.item_img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+.section_2_main{
+    display: grid;
+    grid-template-rows:46% 37%;
+}
+@media only screen and (max-width: 600px) {
+    .section_2_main{
+        display: grid;
+        grid-template-rows:78% 37%;
+    }
+  }
